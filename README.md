@@ -1,76 +1,34 @@
-<p>Clarusway<img align="right"
-  src="https://secure.meetupstatic.com/photos/event/3/1/b/9/600_488352729.jpeg"  width="15px"></p>
+This is a [Next.js](https://nextjs.org/) project bootstrapped with [`create-next-app`](https://github.com/vercel/next.js/tree/canary/packages/create-next-app).
 
-## Project-002 :Google Landing Page (HC-02)
+## Getting Started
 
-## Description
-Project aims to create google landing page.
+First, run the development server:
 
-## Problem Statement
-
-- Your company has recently started on a project that aims to create a landing page. So you and your colleagues have started to work on the project.
-
-## Project Skeleton 
-
-```
-002-google-landing-page (folder)
-|
-|----readme.md         # Given to the students (Definition of the project)          
-|----images            # Given to the students (Definition of the project)   
-        |----appicon.png   
-        |----gfavicon.png
-		|----google_microphone.png
-		|----googlelogo.png
-		|----icon-menu.jpg
-		|----magnifying_glass.png
-|----solution
-        |----index.html  
-        |----style.css   
-        |----images
+```bash
+npm run dev
+# or
+yarn dev
 ```
 
-## Expected Outcome
+Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
 
-![Project 002 Snapshot](Project_002_.png)
+You can start editing the page by modifying `pages/index.js`. The page auto-updates as you edit the file.
 
-## Objective
+[API routes](https://nextjs.org/docs/api-routes/introduction) can be accessed on [http://localhost:3000/api/hello](http://localhost:3000/api/hello). This endpoint can be edited in `pages/api/hello.js`.
 
-Build a Landing that is functionally similar to this: [Google Landing Page](https://aaron-clarusway.github.io/google-landing--page/)
+The `pages/api` directory is mapped to `/api/*`. Files in this directory are treated as [API routes](https://nextjs.org/docs/api-routes/introduction) instead of React pages.
 
-### At the end of the project, following topics are to be covered;
+## Learn More
 
-- HTML 
+To learn more about Next.js, take a look at the following resources:
 
-- List Properties-Tables / CSS-The Display Property-The position Property
+- [Next.js Documentation](https://nextjs.org/docs) - learn about Next.js features and API.
+- [Learn Next.js](https://nextjs.org/learn) - an interactive Next.js tutorial.
 
-- Overflow Property-The float Property-Opacity / Transparency-Units in CSS
+You can check out [the Next.js GitHub repository](https://github.com/vercel/next.js/) - your feedback and contributions are welcome!
 
-- CSS Setting height and width-CSS Outline-CSS Combinators
+## Deploy on Vercel
 
+The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
 
-### At the end of the project, students will be able to;
-
-- improve coding skills within HTML & CSS
-
-- use git commands (push, pull, commit, add etc.) and Github as Version Control System.
-
-## Steps to Solution
-  
-- Step 1: Download or clone project repo on Github 
-
-- Step 2: Create project folder for local public repo on your pc
-
-- Step 3: Create Google Landing Page
-
-
-## Notes
-
-- You can use HTML,and CSS to complete this project.
-
-## Resources
-
--  [Images](./images)
-
-
-<center> ⌛ Happy Coding  ✍ </center>
-
+Check out our [Next.js deployment documentation](https://nextjs.org/docs/deployment) for more details.
