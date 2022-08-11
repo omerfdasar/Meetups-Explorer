@@ -14,7 +14,7 @@ function MeetupDetails(props) {
         image={props.meetupData.image}
         title={props.meetupData.title}
         address={props.meetupData.address}
-        description={props.meetupData.image}
+        description={props.meetupData.description}
       />
     </Fragment>
   );
